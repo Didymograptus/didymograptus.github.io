@@ -1,0 +1,49 @@
+site_name: 'AGSi Draft Documentation'
+site_url: 'https://didymograptus.gitlab.io/agsi-md'
+
+site_description: 'AGSi Draft Documentation'
+site_author: 'DFWG'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'green'
+    accent: 'green'
+  logo: 'images/AGS-logo.png'
+  favicon: 'images/AGS-logo.png'
+  feature:
+    tabs: false
+
+extra:
+  font: false
+
+# Copyright
+copyright: 'Copyright &copy; 2019 AGS'
+
+
+extra_css:
+    - 'stylesheets/extra.css'
+
+pages:
+- 'Home': 'index.md'
+- 'General Rules': 'AGSi_Documentation_General_Rules.md'
+- 'Encoding JSON': 'AGSi_Documentation_Encoding_JSON.md'
+- 'Data General': 'AGSi_Documentation_Data_General.md'
+- 'Data Guidance': 'AGSi_Documentation_Data_Guidance.md'
+- Data Model:
+   - 'agsiData': 'AGSi_Documentation_Data_agsiData.md'
+   - 'agsiDataPropertySet': 'AGSi_Documentation_Data_agsiDataPropertySet.md'
+   - 'agsiDataPropertyValue': 'AGSi_Documentation_Data_agsiDataPropertyValue.md'
+   - 'agsiDataParameterSet': 'AGSi_Documentation_Data_agsiDataParameterSet.md'
+   - 'agsiDataParameterValue': 'AGSi_Documentation_Data_agsiDataParameterValue.md'
+   - 'agsiDataCode': 'AGSi_Documentation_Data_agsiDataCode.md'
+   - 'agsiDataCase': 'AGSi_Documentation_Data_agsiDataCase.md'
+
+
+
+markdown_extensions:
+    - admonition
+    - footnotes
+    - codehilite
+    - toc:
+        permalink: true
